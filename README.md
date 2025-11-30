@@ -3,23 +3,20 @@ Repository for comparing 6 Differential Evolution (DE) variants on the Rastrigin
 
 ---
 
-## 📌 Mô tả bài toán
+## Mô tả bài toán
 
-Mục tiêu là tìm vector biến liên tục **x = (x₁, x₂, …, xₙ)** sao cho giá trị hàm mục tiêu **f(x)** đạt cực tiểu.
+Mục tiêu là tìm vector biến liên tục **x = (x₁, x₂, ..., xₙ)** sao cho giá trị hàm mục tiêu **f(x)** đạt cực tiểu.
 
-### 🔹 Hàm Rastrigin (n ≥ 2)
+### Hàm Rastrigin (n ≥ 2)
 
-\[
-f(x) = A \cdot n + \sum_{i=1}^{n} (x_i^2 - A\cos(2\pi x_i))
-\]
+f(x) = A · n + ∑_{i=1}^{n} ( x_i^2 − A · cos(2π x_i) )
 
 - A = 10 (hằng số)
 - n = số chiều (ví dụ: 10)
-- Miền giá trị: \( x_i \in [-5.12, 5.12] \)
+- Miền giá trị: x_i ∈ [−5.12, 5.12]
 
-Hàm này là bài toán chuẩn để đánh giá các thuật toán tối ưu tiến hóa vì có nhiều cực trị địa phương.
+Hàm này là bài toán tiêu chuẩn để đánh giá các thuật toán tối ưu tiến hóa vì có nhiều cực trị địa phương.
 
----
 
 ## 🔹 Các biến thể DE được so sánh
 
@@ -49,5 +46,5 @@ Repository tiến hành chạy và so sánh **6 biến thể DE phổ biến**:
 
 ## 🚀 Cách chạy mã
 
-File chính của project:
+File chính của project: de_compare.py
 
